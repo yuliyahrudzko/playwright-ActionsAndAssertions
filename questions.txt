@@ -1,0 +1,13 @@
+1. Чем отличается locator.check() от setChecked()?
+  await page.locator('[for="tree-node-desktop"] .rct-checkbox').setChecked(true);
+
+  await page.locator('[for="tree-node-desktop"] .rct-checkbox').check();
+
+2. В каких ситуациях нужно использовать blur()?
+
+3. Реальные примеры использования press()?
+
+4. Зачем использовать locator.inputValue(), если есть locator.innerText()? 
+   (не совсем понятно использоваение locator.allInnerTexts() и locator.innerText())
+
+5. toBeHidden() - какое должно быть условие?
