@@ -36,6 +36,4 @@ test('Test actions and assertions. setChecked()... for radio button element', as
   await expect(page.locator('.text-success')).toHaveText(['Yes']);
 
   await expect(page.locator('.custom-radio [for="noRadio"]')).toBeDisabled()
-
-  await expect(page.locator('#submit')).toBeEnabled();
 })

@@ -6,5 +6,5 @@ test('Test actions and assertions. inputValue()...(page 1)', async ({page}) => {
 
   let dateOfBirth = await page.locator('#dateOfBirthInput').inputValue();
 
-  expect(dateOfBirth).toBe(moment().format('D MMM YYYY'));
+  expect(dateOfBirth).toBe(moment().format('DD MMM YYYY'));
 })
